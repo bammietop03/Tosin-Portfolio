@@ -6,7 +6,7 @@ import handleDownload from "../utils/download";
 const Services = () => {
   return (
     <section id="about" className=" bg-gray-900">
-      <div className="container flex flex-col-reverse justify-between gap-40 text-white py-14 mx-auto max-w-7xl md:py-20 lg:flex-col-reverse">
+      <div className="container flex flex-col-reverse justify-between lg:gap-40 text-white py-14 mx-auto max-w-7xl md:py-20 lg:flex-col-reverse">
         {/* left item */}
         <div>
           <h2 className="text-xl font-bold text-white text-center pb-14">
