@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactForm from './helper/Form'
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
@@ -10,7 +9,7 @@ const Contact = () => {
         {/* left Item */}
         <div className="md:w-1/2 bg-gray-800 rounded-md py-14 px-6 md:px-12">
           <h1 className="text-4xl font-bold text-blue-400">
-            Let's work together
+            Let&apos;s work together
           </h1>
           <p className="text-gray-400 my-6 text-sm">
             It all starts with a conversation. Share your project with me, and
@@ -58,7 +57,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col  justify-center">
               <h2 className="text-gray-500 text-sm font-semibold">Email</h2>
-              <p className="text-white text-sm">AkinniyiTosinEmmanuel@gmail.com</p>
+              <p className="text-white text-sm">Techwayconsult@gmail.com</p>
             </div>
           </div>
           <div className="flex gap-4">

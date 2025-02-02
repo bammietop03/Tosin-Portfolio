@@ -1,4 +1,3 @@
-import React from "react";
 
 const NavBar = () => {
   return (
@@ -42,12 +41,12 @@ const NavBar = () => {
             </a>
           </div>
           <a
-            href="#contact"
-            // target="_blank"
-            // rel="noopener noreferrer"
+            href="whatsapp://send?phone=2348117749790&text="
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <button className="bg-blue-400  px-4 py-2 rounded-lg hover:bg-blue-500">
-              Hire me
+              Contact me
             </button>
           </a>
         </div>

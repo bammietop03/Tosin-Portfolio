@@ -1,5 +1,4 @@
-import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram, FaDownload, FaTiktok } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaDownload, FaTiktok } from "react-icons/fa";
 import tosyno from "../assets/images/tosyno.png";
 import handleDownload from "../utils/download";
 
@@ -12,16 +11,15 @@ const Hero = () => {
           <p className="text-blue-400 font-bold ">Data Analyst</p>
 
           <h1 className="text-white text-6xl font-bold text-center md:text-left">
-            Hello I'm
+            Hello I&apos;m
           </h1>
           <h1 className="text-blue-400 text-6xl font-bold text-center md:text-left">
-            Tosin Akinniyi
+            Tosin Emmanuel
           </h1>
           <p className="text-white pl-5 md:pl-0 md:pr-6 text-center py-6 md:text-left">
-            I am a data analyst passionate about leveraging data to enhance
-            business operations. With my healthcare background, I excel at
-            connecting healthcare services with business strategies to drive
-            impactful outcomes.
+          Every company needs to make data-driven decisions and I understand that. With half a decade years of experience, I founded a data analysis firm dedicated to helping businesses unlock the power of their data while also training individuals who want to build a career in data analytics.
+          Don&apos;t hesitate to reach out for expert guidance and support!
+
           </p>
           <div className=" flex space-x-3">
             <button

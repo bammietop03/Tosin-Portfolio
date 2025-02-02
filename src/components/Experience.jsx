@@ -1,4 +1,3 @@
-import React from 'react'
 import setting from '../assets/svg/setting.svg'
 
 const Experience = () => {
@@ -8,7 +7,7 @@ const Experience = () => {
         <div className="flex flex-col gap-16 md:gap-0 justify-center  mx-auto max-w-7xl md:flex-row">
           {/* left item */}
           <div className="text-white w-full md:w-1/2">
-            <h2 className="text-xl font-bold text-white ml-20 pb-10">
+            <h2 className="text-3xl font-bold text-white ml-20 pb-10">
               EXPERIENCE
             </h2>
             {/* one */}
@@ -66,7 +65,7 @@ const Experience = () => {
           </div>
           {/* right item */}
           <div className="text-white w-full md:w-1/2">
-            <h2 className="text-xl font-bold text-white ml-20 pb-10">
+            <h2 className="text-3xl font-bold text-white ml-20 pb-10">
               EDUCATION
             </h2>
             {/* One */}

@@ -1,7 +1,5 @@
-import React from 'react'
+
 import Card from './helper/Card'
-import { FaDownload } from 'react-icons/fa';
-import handleDownload from "../utils/download";
 
 const Services = () => {
   return (
@@ -9,13 +7,13 @@ const Services = () => {
       <div className="container flex flex-col-reverse justify-between lg:gap-40 text-white py-14 mx-auto max-w-7xl md:py-20 lg:flex-col-reverse">
         {/* left item */}
         <div>
-          <h2 className="text-xl font-bold text-white text-center pb-14">
-            SERVICES
+          <h2 className="text-3xl font-bold text-white text-center pb-14">
+            MY SERVICES
           </h2>
           <Card />
         </div>
         {/* right item */}
-        <div className="flex flex-col justify-center  md:mt-12  text-center lg:text-left p-7 mb-10 md:mb-0 md:p-0   ">
+        {/* <div className="flex flex-col justify-center  md:mt-12  text-center lg:text-left p-7 mb-10 md:mb-0 md:p-0   ">
           <h2 className="text-xl font-bold text-white pb-3">
             ABOUT ME
           </h2>
@@ -45,7 +43,7 @@ const Services = () => {
           >
             Download CV <FaDownload className="mt-1 ml-2" />
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
